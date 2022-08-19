@@ -19,14 +19,14 @@ app.get('/', (req, res)=>{
 
 //try to insert a user
 (async()=>{
-    //const jane= await db.model.User.create({first_name:'Layla', last_name: 'Vontaine'})
-    // console.log(jane)
+    //const user= await db.model.User.create({first_name:'Layla', last_name: 'Ahmed'})
+    // console.log(user)
     const jane= await db.model.User.findOne({where:{id:4}})
 //     await jane.update({
 //         "address": "Khartoum, sudan",
 //         "gender": 1,
-//         "email": "halla.alhassan@gmail.com",
-//         "mobile": "+249127782507",
+//         "email": "@gmail.com",
+//         "mobile": "+24924557",
 //         "job": "Backend",
 //         "salary": 5687
 //  })
