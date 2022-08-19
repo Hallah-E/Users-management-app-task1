@@ -14,6 +14,7 @@ app.get('/', (req, res)=>{
 });
 
 (async()=>{
+    //Test something
     await db.sequelize.sync();
 })();
 
