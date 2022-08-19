@@ -19,10 +19,14 @@ app.get('/', (req, res)=>{
 
 //try to insert a user
 (async()=>{
-<<<<<<< HEAD
+    //const user= await db.model.User.create({first_name:'Layla', last_name: 'Ahmed'})
+    // console.log(user)
+    const user= await db.model.User.findOne({where:{id:4}})
+//     await user.update({
 //         "address": "Khartoum, sudan",
 //         "gender": 1,
->>>>>>> a8362e68f66da4918b69a09ebd6fdc3d5de61820
+//         "email": "********@gmail.com",
+//         "mobile": "+24*****782507",
 //         "job": "Backend",
 //         "salary": 5687
 //  })
